@@ -1,0 +1,16 @@
+server:
+      port: 8081
+      servlet.context-path: /demo
+
+test:
+    data1: 测试数1
+    data2: 测试数2
+
+content: "data1: ${test.data1}, data2: ${test.data2}}"
+
+man:
+  prop1: 1
+  prop2: 2
+  prop3: 3
+  prop4: 4
+  prop5: 5
